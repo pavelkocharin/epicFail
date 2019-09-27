@@ -1,0 +1,7 @@
+// import './range.js'
+// import './modal.js'
+// import './profile.js/index.js'
+// import './validation.js'
+// import './mobile-menu.js'
+// import './toggle-day.js'
+// import './check-day.js'

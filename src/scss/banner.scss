@@ -1,0 +1,57 @@
+@import 'variables';
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-image: url(../img/index/banner.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+  width: 100%;
+
+  &__title {
+    margin: 5px 0 10px 80px;
+    width: 60%;
+    line-height: 46px;
+    font-family: 'Panton-ExtraBold';
+    font-size: 40px;
+    color: $third-grey;
+  }
+
+  &__text {
+    margin: 0 0 0 80px;
+    width: 60%;
+    line-height: 46px;
+    font-family: 'FuturaPTBook';
+    font-size: 26px;
+    color: $third-grey;
+  }
+
+  &__list {
+    margin-left: 80px;
+    width: 60%;
+    line-height: 30px;
+    list-style: none;
+    font-family: 'FuturaPTBook';
+    font-size: 20px;
+    color: $third-grey;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__item:before {
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+    background-image: url(../img/index/bullet.png);
+    background-repeat: no-repeat;
+    width: 1.25rem;
+    height: 1.25rem;
+    content: '';
+  }
+}

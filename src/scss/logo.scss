@@ -1,0 +1,16 @@
+@import 'variables';
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+
+  &__link {
+    text-decoration: none;
+    font-family: 'Panton-ExtraBold';
+    font-size: 18px;
+    color: $third-grey;
+    cursor: pointer;
+  }
+}
