@@ -9,7 +9,6 @@
 
   &__project {
     width: 65%;
-    -height: calc(100% - 123px);
   }
 
   &__author {
@@ -40,6 +39,4 @@
     color: $third-grey;
     z-index: 100;
   }
-
- 
 }
